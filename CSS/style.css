@@ -1,0 +1,362 @@
+:root{
+
+     --marrom: #5E4644;
+     --marrom-claro: #725B4B;
+     --marrom-clarinho:#B6AA92;
+     --laranja:#DB7702;
+     --verde-escuro:#1F371D;
+     --azul-claro:#2F9AA4;
+     --branco:#FFFFFF;
+     --azul:#2F9AA4;
+
+}
+
+body{
+
+    
+    margin: 0;
+
+    font-family: 'inter';
+}
+
+
+.header{
+
+    position: absolute;
+    width: 100%;
+    padding: 30px 0;   
+      
+
+}
+
+.header .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--marrom-clarinho); 
+
+}
+
+.container{
+   
+    width: 1116px;
+    margin: 0 auto;
+}
+
+.menu a{
+
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 80px;
+
+}
+.menu :hover{
+
+    border-bottom:solid 3px #db7702;
+    padding-bottom: 18px;
+}
+
+.hero-section{
+
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .hero{
+
+    background-color:
+    
+    
+
+}
+.hero-section h1{
+
+    color: var(--branco);
+    font-size: 80px;
+    line-height: 100%;
+    margin: 0;
+    font-family: 'Caveat Brush';
+    background-color: 
+   
+    
+}
+
+.hero-section p{
+
+    color: var(--marrom-clarinho);
+    font-size: 20px;
+    line-height: 150%;
+    padding: 30px 0;
+    margin: 0;
+    max-width: 732px;
+    background-color: 
+   
+}
+
+.btn{
+ 
+color: var(--marrom-clarinho);
+background-color: var(--laranja);
+font-size: 18px;
+text-decoration: none;
+display: inline-block;
+padding: 13px 50px 13px 50px;
+border-radius: 7px; 
+
+}
+.btnn{
+ 
+    color: var(--marrom-clarinho);
+    background-color: #08080854;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 50px 13px 50px;
+    border-style: solid;
+    border-color: var(--laranja);
+    border-width: 1px;
+    border-radius: 7px;
+    margin-left: 30px; 
+    
+    }
+    
+   .btn1{ 
+       
+    color: var(--marrom-clarinho);
+    background-color: var(--azul);
+    border-color: var(--branco);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 50px 13px 50px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+
+
+} .btn2{ 
+       
+    color: var(--marrom-clarinho);
+    background-color: var(--verde-escuro);
+    border-color: var(--branco);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 100px 13px 100px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;}
+
+
+
+    
+
+    .presentaion{
+
+        color: var(--marrom);
+        font-size: 20px;
+        column-gap: 24px;
+        align-items: center;
+
+        font-family: 'Caveat Brush';
+        text-align: center;
+        line-height: 100%;
+       
+    }
+    .cards-section{
+
+         
+        padding: 50px 0;
+        
+        
+  
+    }
+ 
+    .cards-section .container{
+
+        display: flex;
+        justify-content: space-between;
+
+        
+    }
+
+    .card-text{ 
+
+        background-image: url(../img/foto-cadeiras.jpg);
+        width: 546px;
+        height: 512px;     
+
+    }
+    .card-text1{
+
+        color: #FFFFFF;
+        padding: 335px 10px;
+        margin: 20px 0;
+
+
+    }
+
+    .card2{
+      
+        background-image: url(../img/foto-cabana.jpg);
+        width: 546px;
+        height: 246px;
+
+    }
+    .card12{
+        color: #FFFFFF;
+        padding: 70px 10px;
+        margin: 20px 0;
+
+    }
+   
+    .card1{
+
+        background-image: url(../img/foto-cafe.jpg);
+        width: 546px;
+        height: 246px;
+       
+    }
+    .card11{
+
+        color: #FFFFFF;
+        padding: 70px 10px;
+    }
+
+    .Mask-Group{
+      
+        font-size: 30px;
+        font-family: 'Caveat Brush';
+        text-align: center;
+        padding: 30px;
+
+        height: 100%;
+        background-size: cover;
+        background-image: url(../img/nascer\ 1.png);
+        
+    }
+    .solazer {
+
+        text-align: center;
+        background-color: ;   
+        align-items: center;  
+       
+
+    }
+    .solazer h3{
+
+        background-color: ;
+        font-family: 'Teko', sans-serif;
+        font-size: 20px;
+
+        line-height: 19px;
+        padding-top: 16px;
+        margin: 0 auto;
+        text-align: center;
+         max-width: 730px;
+
+    }
+  
+    .solazer p{
+     
+       background-color: ; 
+       font-family: 'Teko', sans-serif;
+
+       
+    }
+
+    .card-pet{
+
+        justify-content: space-between;
+        display: flex; 
+        padding: 50px;
+       
+
+    }
+    
+    .solazer1{
+
+        padding: 50px;
+    }
+    .pet-te{
+      
+        width: 546px;
+        height: 246px;
+        background-image: url(../img/foto-kako.jpg);  
+        
+    }
+    .pet-t1{
+
+        color: #FFFFFF;
+        padding: 70px 10px;
+
+    }
+
+    .decoracao-pt{
+
+        width: 546px;
+        height: 246px;
+        background-image: url(../img/card-decoracao.png);
+       
+    }
+
+
+    .decoracao-pt1{
+
+        color: #FFFFFF;
+        padding: 70px 10px;
+
+
+    }
+
+
+    .bg-footer .footer{
+  
+        justify-content: space-between;
+        display: flex; 
+
+    }
+
+    .bg-footer {
+
+        padding: 20px 0px;
+        background-image: url(../img/bg-footer.jpg);
+        width: auto;
+        height: 160px;
+        justify-content: space-between;
+        display: flex;
+        margin-top: 30px;
+
+    }
+
+
+
+    .bg-footer .texto{
+    
+        background-color: ;
+ 
+        color: #FFFFFF;
+         
+    }
+
+    .bg-footer .texto2{
+
+        color: #FFFFFF;
+    }
+    .bg-footer .texto3{
+
+
+       color: #FFFFFF;
+      
+
+    }
+
+
+ 
